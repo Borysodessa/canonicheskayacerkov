@@ -6,30 +6,78 @@
 <link href="css/styles.css" rel="stylesheet">
     <title>Каноническая Православная Церковь</title>
 </head>
- 
-<body class="body">
+ <body class="body">
+    <div class="container">
     <header class="main-header">
         <nav class="main-navigation">
             <ul class="header-list">
-                <img class="logo" src="./images/logo.jpg" width="50px" alt="Логотип-Каноническая Православная Церковь">
-                <a class="news">Новости</a> 
-                <form action="" class="header-search-form">
-                    <input class="header-input" type="search" aria-label="Поиск:" placeholder="Поиск:" >
-                </form>
-                <a class="contacts-links">контакты</a> 
-                <div class="main-user-navigation">
-                    <a class="user-navigation sign-in" href="#">Войти</a>
-                    <a class="user-navigation registration" href="#">Регистрация</a>
-                </div>
+                <li class=" header-item">
+                    <a class="header-link main-page" href="#">Главная</a>
+                </li>
+                <li class=" header-item">
+                    <a class="header-link header-news-item" href="#">Новости</a>
+                </li>
+                <li class=" header-item lives-saints eparchy">
+                    <a class="header-link" href="https://eparhiya.od.ua/">Епархия</a>
+                </li> 
+                <li class=" header-item">
+                    <a class="header-link header-contacts-links" href="#">Контакты</a>
+                </li> 
+                <li class=" header-item">
+                    <form action="" class="header-search-form">
+                        <input class="header-input" type="search" aria-label="Поиск:" placeholder="Поиск:" >
+                    </form>
+                </li>
+               
+                <li class=" header-item">
+                    <div class="main-user-navigation">
+                        <a class="user-navigation sign-in" href="#">Войти</a>
+                        <a class="user-navigation registration" href="#">Регистрация</a>
+                    </div>
+                </li>
             </ul>
         </nav>
     </header>
     <div class="flex-container">
-          <div class="main">
-    <section class="hram-img">
-        <div class="hram-wrap">
-            <H2>Храм Святых Мучеников Адриана и Наталии</H2>
-            <img src="./images/st.jpg" class="hram" alt="фото Храм Святых Мучеников Адриана и Наталии">
+        <div class="toolbar">
+            <h2 class="toolbar-title">церкви</h2>
+            <a class="churches">Россия</a>
+            <a class="churches">Украина</a>
+            <a class="churches">Беларуссия</a>
+            <a class="churches">Болгария</a>
+            <a class="churches">Грузия</a>
+            <a class="churches">Молдова</a>
+            <a class="churches">Болгария</a>
+            <a class="churches">Сербия</a>
+            <a class="churches">Эфиопия</a>
+        </div>
+        <div class="main">
+            <section class="hram-section">
+                <div class="hram-wrap">
+            <h2 class="hram-title">
+                <span class="hram-title-span">Храм Святых Мучеников</span>
+                 Адриана и Наталии
+            </h2>
+            <ul class="menu-hram-list">
+                <li class="menu-hram-item">
+                    <a href="#" class="menu-hram-link Worship-Schedule">Расписание богослужений </a></li><!--в ссылку добавить-Службы проводятся на старославянском языке--> 
+                <li class="menu-hram-item">
+                    <a class="menu-hram-link lives-saints" href="#">Житие</a>
+                </li>
+                <li class="menu-hram-item">
+                    <a class="menu-hram-link history" href="#">История</a>
+                </li>
+                <li class="menu-hram-item">
+                    <a class="menu-hram-link shrines" href="#">Святыни</a>
+                </li>
+                <li class="menu-hram-item">
+                    <a class="menu-hram-link contacts" href="#">Контактная информация</a>
+                </li><!--(Священники,староста,фото священников,e-mail,публикации)-->
+                <li class="menu-hram-item">
+                    <a class="menu-hram-link address" href="#">Адрес Храма</a>
+                </li> <!-- К адресу добавить гугл карту-->
+            </ul>
+            <img class="hram-img" src="./images/st.jpg"  alt="фото Храм Святых Мучеников Адриана и Наталии">
         </div>
         <button class="offer-slider-arrow left-arrow" type="button">
             <img alt="левая стрелка слайдера" height="40" src="img/icon-left-arrow.svg" width="22">
@@ -37,29 +85,11 @@
         <button class="offer-slider-arrow right-arrow" type="button">
             <img alt="правая стрелка слайдера" height="40" src="img/icon-right-arrow.svg" width="22">
         </button>
-    </section>
-    <section>
-        <address class="address">Украина, Одесса, Французский бульвар,46/1, Епархия Одесская</address>
-        <p class="work-time">ежедневно: </p>
-        <p class="">Расписание богослужений </p>
-        <p class="language">Службы проводятся на старославянском языке </p>
-        <p class="priests">Священники</p>
-        <p class="history">История</p>
-        <p class="shrines">Святыни</p>
         <textarea class="information">Информация от церкви</textarea>
+        <p>карта</p>
     </section>
-    </div>
-    <div class="toolbar">
-        <H2>церкви</H2>
-        <a class="churches">Россия</a>
-        <a class="churches">Украина</a>
-        <a class="churches">Беларуссия</a>
-        <a class="churches">Болгария</a>
-        <a class="churches">Грузия</a>
-        <a class="churches">Молдова</a>
-        <a class="churches">Болгария</a>
-        <a class="churches">Сербия</a>
-        <a class="churches">Эфиопия</a>
-    </div>
-    </div>
+
 </body>
+
+    
+    
