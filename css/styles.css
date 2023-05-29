@@ -2,16 +2,38 @@ img {
     display: block;
 }
 
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
+.body {
+    margin: 0;
+}
+
 .container {
     width: 940px;
     margin-left: auto;
     margin-right: auto;
+    padding-left: 30px;
+    padding-right: 30px;
+    border: 2px #f4eded solid;
+    background-color: #f4f4f078;
 }
 
 .header-list {
     display: flex;
     justify-content: space-around;
     margin-bottom: 0;
+    margin-top: 0;
     list-style: none;
     padding-left: 0;
     font-family: Arial, Helvetica, sans-serif;
@@ -26,6 +48,7 @@ img {
 }
 
 .header-link {
+    padding-top: 0;
     padding-top: 8px;
     padding-bottom: 8px;
     padding-left: 35px;
@@ -112,7 +135,6 @@ img {
     display: flex;
     justify-content: space-between;
     padding-left: 0;
-
 }
 
 .menu-hram-item {
@@ -135,4 +157,107 @@ img {
     text-decoration: none;
     color: black;
     font-size: 15px;
+}
+
+.menu-hram-btn {
+    display: flex;
+    align-content: center;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 5px;
+    padding-right: 5px;
+    border-radius: 5px;
+    border: none;
+    color: black;
+    font-size: 15px;
+}
+
+.modal-schedule,
+.lives-saints {
+    display: block;
+    position: fixed;
+    margin: auto;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 25px;
+    height: 250px;
+    width: 400px;
+    background-color: white;
+    border: #f2e7e7 1px solid;
+    z-index: 10;
+}
+
+.scedule-title {
+    margin: 0;
+}
+
+.modal-close,
+.lives-modal-close {
+    content: "";
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    width: 20px;
+    height: 20px;
+    border: none;
+    background-color: rgb(255, 255, 255);
+    z-index: 20
+}
+
+.modal-close::before,
+.modal-close::after,
+.lives-modal-close::before,
+.lives-modal-close::after {
+    content: "";
+    position: absolute;
+    top: 7px;
+    right: -1px;
+    width: 19px;
+    height: 2px;
+    background-color: red;
+    outline: none;
+}
+
+.modal-close::before,
+.lives-modal-close::before {
+    transform: rotate(45deg);
+}
+
+.modal-close::after,
+.lives-modal-close::after {
+    transform: rotate(-45deg);
+}
+
+.slider-arrow {
+    position: absolute;
+    top: 410px;
+    background-color: #f8f9fa04;
+    border: none;
+}
+
+.left-arrow {
+    left: 312px;
+}
+
+.right-arrow {
+    right: 353px;
+}
+
+.information {
+    margin-top: 20px;
+    margin-bottom: 25px;
+    margin-left: 65px;
+    width: 550px;
+    border-radius: 4px;
+}
+
+.addres-map {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    height: 140px;
 }

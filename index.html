@@ -17,7 +17,7 @@
                 <li class=" header-item">
                     <a class="header-link header-news-item" href="#">Новости</a>
                 </li>
-                <li class=" header-item lives-saints eparchy">
+                <li class=" header-item eparchy">
                     <a class="header-link" href="https://eparhiya.od.ua/">Епархия</a>
                 </li> 
                 <li class=" header-item">
@@ -40,7 +40,7 @@
     </header>
     <div class="flex-container">
         <div class="toolbar">
-            <h2 class="toolbar-title">церкви</h2>
+            <h2 class="toolbar-title">храмы</h2>
             <a class="churches">Россия</a>
             <a class="churches">Украина</a>
             <a class="churches">Беларуссия</a>
@@ -58,37 +58,55 @@
                 <span class="hram-title-span">Храм Святых Мучеников</span>
                  Адриана и Наталии
             </h2>
+            
+
             <ul class="menu-hram-list">
                 <li class="menu-hram-item">
-                    <a href="#" class="menu-hram-link Worship-Schedule">Расписание богослужений </a></li><!--в ссылку добавить-Службы проводятся на старославянском языке--> 
+                    <button  class="menu-hram-btn schedule-btn">
+                        Расписание богослужений
+                     </button>
+                </li><!--в ссылку добавить-Службы проводятся на старославянском языке--> 
                 <li class="menu-hram-item">
-                    <a class="menu-hram-link lives-saints" href="#">Житие</a>
+                    <button class="menu-hram-btn lives-btn">
+                        Житие
+                    </button>
                 </li>
                 <li class="menu-hram-item">
-                    <a class="menu-hram-link history" href="#">История</a>
+                    <button class="menu-hram-link history" >История</button>
                 </li>
                 <li class="menu-hram-item">
-                    <a class="menu-hram-link shrines" href="#">Святыни</a>
+                    <button class="menu-hram-link shrines" >Святыни</button>
                 </li>
                 <li class="menu-hram-item">
-                    <a class="menu-hram-link contacts" href="#">Контактная информация</a>
+                    <button class="menu-hram-link contacts" >Контактная информация</button>
                 </li><!--(Священники,староста,фото священников,e-mail,публикации)-->
                 <li class="menu-hram-item">
-                    <a class="menu-hram-link address" href="#">Адрес Храма</a>
+                    <button class="menu-hram-link address" >Адрес Храма</button>
                 </li> <!-- К адресу добавить гугл карту-->
             </ul>
             <img class="hram-img" src="./images/st.jpg"  alt="фото Храм Святых Мучеников Адриана и Наталии">
         </div>
-        <button class="offer-slider-arrow left-arrow" type="button">
-            <img alt="левая стрелка слайдера" height="40" src="img/icon-left-arrow.svg" width="22">
+        <button class="slider-arrow left-arrow" type="button">
+            <img alt="левая стрелка слайдера" height="40" src="images/icon-left-arrow.svg" width="22">
         </button>
-        <button class="offer-slider-arrow right-arrow" type="button">
-            <img alt="правая стрелка слайдера" height="40" src="img/icon-right-arrow.svg" width="22">
+        <button class="slider-arrow right-arrow" type="button">
+            <img alt="правая стрелка слайдера" height="40" src="images/icon-right-arrow.svg" width="22">
         </button>
-        <textarea class="information">Информация от церкви</textarea>
-        <p>карта</p>
+        <textarea class="information">Информация от храма</textarea>
+        <iframe class="addres-map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d533.0406616573764!2d30.762924465330624!3d46.446980243294604!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40c633e5423b354d%3A0x884a02e47007d0be!2z0KXRgNCw0Lwg0KHQstGP0YLQuNGFINCc0YPRh9C10L3QuNC60ZbQsiDQkNC90LTRgNGW0Y_QvdCwINGC0LAg0J3QsNGC0LDQu9GW0ZcgKNCj0J_Qpik!5e1!3m2!1sru!2s!4v1685304418690!5m2!1sru!2s" width="550" height="140" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+        </iframe>
     </section>
-
+    <section class="modal-schedule visually-hidden">
+        <h1 class="scedule-title">Расписание богослужений</h1> 
+        <button class="modal-close" type="button" aria-label="Закрыть">
+        </button>
+    </section>
+    <section class="lives-saints visually-hidden">
+        <h1 class="lives-saints">Житие</h1> 
+        <button class="lives-modal-close" type="button" aria-label="Закрыть">
+        </button>
+    </section>
+    <script src="./index.js"></script>
 </body>
 
     
