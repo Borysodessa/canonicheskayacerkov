@@ -16,12 +16,12 @@ closePopap.addEventListener("click", function (evt) {
 });
 
 
-linkLives.addEventListener("click", function (evt) {
-    evt.preventDefault(evt);
-    popapLives.classList.remove('visually-hidden');
-});
+// linkLives.addEventListener("click", function (evt) {
+//     evt.preventDefault(evt);
+//     popapLives.classList.remove('visually-hidden');
+// });
 
-closePopapLives.addEventListener("click", function (evt) {
-  evt.preventDefault();
-  popapLives.classList.add("visually-hidden");
-});
+// closePopapLives.addEventListener("click", function (evt) {
+//   evt.preventDefault();
+//   popapLives.classList.add("visually-hidden");
+// });
