@@ -19,24 +19,21 @@ a {
     overflow: hidden;
 }
 
-.body {
-    margin: 0;
-}
-
 .text {
     margin-top: 0;
     margin-bottom: 0;
 }
 
+.body {
+    margin: 0;
+}
 
 .container {
     width: 970px;
     margin-left: auto;
     margin-right: auto;
-    padding-top: 20px;
     padding-left: 15px;
     padding-right: 15px;
-
     border: 2px #f4eded solid;
     background-color: #f4f4f078;
 }
@@ -48,54 +45,73 @@ a {
     margin-top: 0;
     list-style: none;
     padding-left: 0;
-    font-family: Arial, Helvetica, sans-serif;
+
 }
 
 .header-item {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    border-radius: 5px;
-    background: linear-gradient(#bed3e8, #cbd5db54);
 }
 
 .header-link {
     padding-top: 0;
-    padding-top: 8px;
-    padding-bottom: 8px;
-    padding-left: 35px;
-    padding-right: 35px;
+    padding-top: 28px;
+    padding-bottom: 28px;
+    padding-left: 24px;
+    padding-right: 24px;
     text-decoration: none;
-    color: black;
-    box-shadow: 0 0 10px #090909b3;
-    border-radius: 5px;
+    color: #3f51b5;
+    border-bottom: 2px solid #f9f9f9a3;
+    font-family: "Roboto Condensed";
 }
 
 .header-link:hover {
-    border-radius: 5px;
-    color: white;
-    background-color: rgb(186, 223, 243);
-    box-shadow: 0 0 1px #090909b3;
+    border-bottom: 2px solid #513e11a3;
+    color: rgb(138, 128, 128);
 }
+
+/* ================HEADER-INPUT================== */
 
 .header-search-form {
     margin-bottom: 0;
+    background-color: #f4f4f078;
 }
 
 .header-input {
+    padding-top: 38px;
+    padding-bottom: 38px;
     height: 40px;
     border: none;
     width: 120px;
-    color: black;
-    border-radius: 5px;
+
     outline: none;
-    padding-left: 15px;
-    background: linear-gradient(#bed3e8, #cbd5db54);
-    box-shadow: 0 0 10px #090909b3;
+    /* background: linear-gradient(#bed3e8, #cbd5db54);
+    box-shadow: 0 0 10px #090909b3; */
+    background-color: #f4f4f078;
 }
 
-::-webkit-input-placeholder {
-    color: black;
+.header-input::-webkit-input-placeholder {
+    color: #3f51b5;
+    padding-left: 15px;
+    font-family: "Roboto Condensed";
+    font-size: 20px;
+    outline: none;
+
+}
+
+.header-input:hover::-webkit-input-placeholder {
+    color: rgb(138, 128, 128);
+    padding-bottom: 28px;
+    padding-left: 15px;
+}
+
+.header-input:focus::-webkit-input-placeholder {
+    color: #f4f4f078;
+}
+
+.header-input:hover {
+    border-bottom: 2px solid #372a2aa3
 }
 
 .header-input:focus {
@@ -132,7 +148,7 @@ a {
 .toolbar {
     display: flex;
     flex-direction: column;
-    background-color: #e0f6f6;
+    background-color: #e8eded;
     margin-top: 137px;
     padding-left: 10px;
     padding-right: 10px;
@@ -206,8 +222,7 @@ a {
     font-size: 15px;
 }
 
-.modal-schedule,
-.lives-saints {
+.modal-schedule {
     display: block;
     position: fixed;
     margin: auto;
@@ -242,8 +257,7 @@ a {
     text-align: center;
 }
 
-.modal-close,
-.lives-modal-close {
+.modal-close {
     content: "";
     position: absolute;
     top: 20px;
@@ -261,9 +275,7 @@ a {
 }
 
 .modal-close::before,
-.modal-close::after,
-.lives-modal-close::before,
-.lives-modal-close::after {
+.modal-close::after {
     content: "";
     position: absolute;
     top: 7px;
@@ -274,13 +286,11 @@ a {
     outline: none;
 }
 
-.modal-close::before,
-.lives-modal-close::before {
+.modal-close::before {
     transform: rotate(45deg);
 }
 
-.modal-close::after,
-.lives-modal-close::after {
+.modal-close::after {
     transform: rotate(-45deg);
 }
 
@@ -324,28 +334,50 @@ a {
 }
 
 /* ==============ЖИТИЕ================== */
+
 .lives-flex-container {
     display: flex;
     justify-content: space-around;
 }
 
 .lives-Title {
-    margin-top: 0;
+    margin-top: 15px;
     margin-bottom: 20px;
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.lives-title-text {
-    margin-bottom: 0;
+.lives-icon {
+    padding-right: 5px;
+
 }
 
-.tropar-jitie-akafist {
-    margin-right: 20px;
-    margin-bottom: 20px;
-
+.lives-toolbar-list {
+    margin-top: 25px;
+    margin-right: 5px;
+    padding-right: 15px;
     padding-left: 0;
+    border-right: 1px solid rgb(154, 150, 150);
     text-decoration: none;
     list-style: none;
     font-family: Arial, Helvetica, sans-serif;
 }
+
+.lives-tulbar-link {
+    display: inline-block;
+    margin-bottom: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: 3f51b5;
+}
+
+
+
+
+
+
+
+
+
+
+/* box-shadow: 0 10px 10px 1px #f4f4f078; */
