@@ -367,8 +367,12 @@ a {
 }
 
 /* ===============Акафист================ */
+.acafist-icon {
+    margin-top: 55px;
+    padding-right: 5px;
+}
 
-.acafis-title {
+.toolbar-title {
     margin-top: 5px;
     margin-bottom: 5px;
     text-align: center;
@@ -376,13 +380,15 @@ a {
     font-size: 20px;
 }
 
-.acafist-icon {
-    margin-top: 55px;
-    padding-right: 5px;
-}
-
-.acafist-text {
+.toolbar-text {
     text-indent: 15px;
     margin-top: 5px;
     margin-bottom: 0;
+}
+
+/* ===============Акафист================ */
+
+.tropar-icon {
+    margin-top: 0;
+    padding-right: 5px;
 }
