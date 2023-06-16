@@ -119,6 +119,8 @@ a {
     box-shadow: 0 0 1px #090909b3;
 }
 
+/* ================HEADER-INPUT================== */
+
 .user-navigation {
     padding-left: 10px;
     padding-right: 10px;
@@ -139,6 +141,8 @@ a {
     border-radius: 5px;
     box-shadow: 0 0 1px #090909b3
 }
+
+/* ==================Main============== */
 
 .flex-container {
     display: flex;
@@ -340,7 +344,7 @@ a {
     justify-content: space-around;
 }
 
-.lives-Title {
+.lives-title {
     margin-top: 15px;
     margin-bottom: 20px;
     text-align: center;
@@ -358,6 +362,12 @@ a {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+.lives-toolbar__item--ikon{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 25px;
+}
+
 .lives-tulbar-link {
     display: inline-block;
     margin-bottom: 5px;
@@ -366,10 +376,16 @@ a {
     color: #3f51b5;
 }
 
+.lives-tulbar-link:hover{
+    border-bottom: 2px solid #513e11a3;
+        color: rgb(138, 128, 128);
+}
+
 /* ===============Акафист================ */
 
-.acafist-icon {
-    margin-top: 55px;
+.acafist-icon__img,
+.lives-ikon__img {
+    margin-top: 0;
     padding-right: 5px;
 }
 
@@ -413,3 +429,6 @@ a {
 .iconography__wrap--toolbar{
     width: 13%;
 }
+
+
+
