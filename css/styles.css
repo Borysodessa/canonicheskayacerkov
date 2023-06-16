@@ -387,9 +387,29 @@ a {
     margin-bottom: 0;
 }
 
-/* ===============Акафист================ */
+/* ===============Тропарь================ */
 
 .tropar-icon {
     margin-top: 0;
     padding-right: 5px;
+}
+
+/* ===============Иконография================ */
+
+.iconography{
+    list-style: none;
+}
+
+.iconography__item{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.iconography__wrap--main{
+    width: 86%;
+}
+
+.iconography__wrap--toolbar{
+    width: 13%;
 }
