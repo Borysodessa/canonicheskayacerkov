@@ -51,11 +51,6 @@ a {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    
-}
-
-.header-item:hover {
-    
 }
 
 .header-link {
@@ -89,41 +84,35 @@ a {
     border: none;
     width: 120px;
     outline: none;
-    background-color: #f4f4f078;
     border-bottom: 3px solid #3f51b5;
 }
+
+.header-input:hover{
+   border-bottom: 3px solid #c18803a3; 
+} 
 
 .header-input::-webkit-input-placeholder {
     color: #3f51b5;
     padding-left: 15px;
     font-family: "Roboto Condensed";
-    font-size: 20px;
-}
+    font-size: 20px; 
+  }
+
 
 .header-input:hover::-webkit-input-placeholder {
     color: #c18803a3;
     padding-bottom: 28px;
-    padding-left: 15px;
-    border-bottom: 3px solid #c18803a3;
-}
+}  
 
 .header-input:focus::-webkit-input-placeholder {
     color: #f4f4f078;
 }
 
-.header-input:hover {
-  
-    border-bottom: 3px solid #c18803a3;
-}
-
 .header-input:focus {
     background-color: white;
-    border-bottom: 3px solid #c18803a3;
     box-shadow: 0 0 1px #090909b3;
 }
     
-
-
 /* ================ Пользовательское меню ================== */
 
 .user-navigation__item{
