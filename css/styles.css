@@ -32,8 +32,8 @@ a {
     width: 970px;
     margin-left: auto;
     margin-right: auto;
-    padding-left: 15px;
-    padding-right: 15px;
+    padding-left: 5px;
+    padding-right: 5px;
     border: 2px #f4eded solid;
     background-color: #f4f4f078;
 }
@@ -131,6 +131,7 @@ a {
     display: flex;
     font-family: Arial, Helvetica, sans-serif;
 }
+/* ================== Тулбар ============== */
 
 .toolbar {
     display: flex;
@@ -146,6 +147,7 @@ a {
     margin-top: 10px;
     font-size: 25px;
 }
+/* ================== Храм ============== */
 
 .hram-title {
     margin-top: 0;
@@ -154,30 +156,25 @@ a {
     margin-right: auto;
     width: 375px;
     text-align: center;
+    color: #2c3980;
 }
 
 .churches {
     margin-bottom: 10px;
 }
 
-.hram-img {
-    margin-left: auto;
-    margin-right: auto;
-}
-
 .menu-hram-list {
     display: flex;
     justify-content: space-between;
+    margin-top: 10px;
     padding-left: 0;
-    box-shadow: 0 0 5px black;
 }
+
 
 .menu-hram-item {
     display: flex;
     list-style: none;
-    border-radius: 5px;
-    margin-left: 1px;
-    background-color: #e3e8ed;
+     width:17%;
 }
 
 .menu-hram-link {
@@ -189,24 +186,39 @@ a {
     padding-bottom: 8px;
     padding-left: 5px;
     padding-right: 5px;
+    width: 100%;
     text-decoration: none;
-    color: black;
-    font-size: 15px;
+    color: #3f51b5;
+    background-color: #ffffff;
+    border:none;
+    border-bottom: 2px solid #3f51b5;
+    font-size: 17px;
 }
 
-.menu-hram-btn {
-    display: flex;
-    align-content: center;
-    justify-content: space-evenly;
-    align-items: center;
-    padding-top: 8px;
-    padding-bottom: 8px;
-    padding-left: 5px;
-    padding-right: 5px;
-    border-radius: 5px;
-    border: none;
-    color: black;
-    font-size: 15px;
+.menu-address{
+    width: 20%;
+}
+.menu-hram-link:hover{
+    color: #c18803a3;
+    border-color: #c18803a3;
+}
+
+.hram-img {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.lives-saints-width {
+    width: 950px;
+    height: 600px;
+    overflow: auto;
+}
+
+
+
+.lives-saints-title {
+    margin-top: 0;
+    text-align: center;
 }
 
 .modal-schedule {
@@ -223,17 +235,6 @@ a {
     background-color: white;
     border: #f2e7e7 1px solid;
     z-index: 10;
-}
-
-.lives-saints-width {
-    width: 950px;
-    height: 600px;
-    overflow: auto;
-}
-
-.lives-saints-title {
-    margin-top: 0;
-    text-align: center;
 }
 
 .scedule-title {
