@@ -214,11 +214,14 @@ a {
     overflow: auto;
 }
 
-
-
 .lives-saints-title {
     margin-top: 0;
     text-align: center;
+}
+
+.lives-saints-text {
+    margin-bottom: 0;
+    text-indent: 25px;
 }
 
 .modal-schedule {
@@ -234,6 +237,17 @@ a {
     width: 600px;
     background-color: white;
     border: #f2e7e7 1px solid;
+    z-index: 20;
+}
+
+.overlay{
+    display:block;
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: #000000af;
     z-index: 10;
 }
 
@@ -255,11 +269,6 @@ a {
     border: none;
     background-color: rgb(255, 255, 255);
     z-index: 20
-}
-
-.lives-saints-text {
-    margin-bottom: 0;
-    text-indent: 25px;
 }
 
 .modal-close::before,
