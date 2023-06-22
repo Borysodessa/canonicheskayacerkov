@@ -65,17 +65,18 @@
     </header>
     <div class="flex-container">
         <div class="toolbar">
-            <h2 class="toolbar-title">храмы</h2>
-            <a class="churches">Россия</a>
-            <a class="churches">Украина</a>
-            <a class="churches">Беларуссия</a>
-            <a class="churches">Болгария</a>
-            <a class="churches">Грузия</a>
-            <a class="churches">Молдова</a>
-            <a class="churches">Болгария</a>
-            <a class="churches">Сербия</a>
-            <a class="churches">Эфиопия</a>
+            <h2 class="toolbar-title">Храмы</h2>
+            <bottom class="toolbar__bottom">Россия</bottom>
+            <bottom class="toolbar__bottom Ukraine">Украина</bottom>
+            <bottom class="toolbar__bottom">Беларуссия</bottom>
+            <bottom class="toolbar__bottom">Болгария</bottom>
+            <bottom class="toolbar__bottom">Грузия</bottom>
+            <bottom class="toolbar__bottom">Молдова</bottom>
+            <bottom class="toolbar__bottom">Болгария</bottom>
+            <bottom class="toolbar__bottom">Сербия</bottom>
+            <bottom class="toolbar__bottom">Эфиопия</bottom>
         </div>
+
         <div class="main">
             <section class="hram-section">
                 <div class="hram-wrap">
@@ -122,15 +123,38 @@
         <textarea class="information"></textarea>
         <iframe class="addres-map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d533.0406616573764!2d30.762924465330624!3d46.446980243294604!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40c633e5423b354d%3A0x884a02e47007d0be!2z0KXRgNCw0Lwg0KHQstGP0YLQuNGFINCc0YPRh9C10L3QuNC60ZbQsiDQkNC90LTRgNGW0Y_QvdCwINGC0LAg0J3QsNGC0LDQu9GW0ZcgKNCj0J_Qpik!5e1!3m2!1sru!2s!4v1685304418690!5m2!1sru!2s" width="550" height="140" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
         </iframe>      
-    </section>
+    </section> 
+
+  <!-- ================== Тулбар всплывающее окно ===============  -->
+
+    <section class="eparchys-Ukrain__wrap visually-hidden ">
+        <button class="eparchys-Ukrain-close" type="button" aria-label="Закрыть">
+        </button>
+            <h2 class="eparchys-Ukrain__title">Епархии</h2>
+        <ul class="eparchys__list--column text">
+            <li class="item">
+                <ul class="text">
+                    <li class="item">
+                        <h3 class="eparchys__title">Одесская епархия.</h3>
+                    </li>
+                    <li class="eparchys__item item">
+                        <a class="eparchys__link" href="./index.html">Храм Святых Мучеников Адриана и Наталии</a>
+                    </li>
+                </ul>
+            </li>
+        </section>
+
+        <!-- ================== Расписание всплывающее окно ===============  -->
+
     <section class="modal-schedule visually-hidden">
-        <h1 class="scedule-title">Расписание богослужений</h1> 
+        <h1 class="scedule-title">Расписание</h1> 
         <button class="modal-close" type="button" aria-label="Закрыть">
         </button>
         <p><span class="open-day">8.00</span> Божественная Литургия (воскресные и праздничные дни)</p> 
         <p><span class="open-day">16.00</span> Всеночное бдение. Исповедь</p> 
         <p>Богослужения совершаются на церковнославянском языке</p> 
     </section>
+
    <script src="./index.js"></script>
    
 </body>
