@@ -166,6 +166,11 @@ a {
     margin-bottom: 10px
 }
 
+.tulbar__img{
+    display: block;
+    margin-left: auto;
+}
+
 /* ================== Храм ============== */
 
 .hram-title {
@@ -190,7 +195,6 @@ a {
     margin-top: 10px;
     padding-left: 0;
 }
-
 
 .menu-hram-item {
     display: flex;
@@ -230,7 +234,7 @@ a {
     margin-right: auto;
 }
 
-/* ==============высплывающие окна============= */
+/* ============== высплывающие окна ============= */
 
 .modal-schedule,
 .eparchys-Ukrain__wrap {
@@ -310,7 +314,7 @@ a {
     font-size: 23px;
 }
 
-/* ==================Тулбар всплывающее окно=============== */
+/* ================== Тулбар всплывающее окно гланая стр =============== */
 
 .eparchys__title {
     margin-top: 0;
@@ -323,21 +327,6 @@ a {
 
 .eparchys__link {
     color: black
-}
-
-.slider-arrow {
-    position: absolute;
-    top: 410px;
-    background-color: #f8f9fa04;
-    border: none;
-}
-
-.left-arrow {
-    left: 312px;
-}
-
-.right-arrow {
-    right: 353px;
 }
 
 .information {
@@ -393,8 +382,8 @@ a {
 .lives-toolbar-list {
     margin-top: 25px;
     margin-right: 5px;
-    padding-right: 15px;
-    padding-left: 0;
+    padding-right: 7px;
+    padding-left: 8px;
     border-right: 1px solid rgb(154, 150, 150);
     text-decoration: none;
     list-style: none;
@@ -462,8 +451,25 @@ a {
     width: 13%;
 }
 
+/* =============== история ============= */
 
-/* Слайдер */
+
+/* =================Слайдер ===============*/
+
+.slider-arrow {
+    position: absolute;
+    top: 410px;
+    background-color: #f8f9fa04;
+    border: none;
+}
+
+.left-arrow {
+    left: 312px;
+}
+
+.right-arrow {
+    right: 353px;
+}
 
 .slick-slider {
     position: relative
