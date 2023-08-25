@@ -452,8 +452,42 @@ a {
 }
 
 /* =============== история ============= */
+.history-church__section_grid{
+    display: grid;
+    grid-template-columns: 30% 70%;
+    margin-left: 40px;
+   
+    /* grid-template-rows: 80px 80px 80px 80px 80px 80px 80px;
+    border: 1px black solid; */
+    /* gap: 50px; */
+    border: 1px solid rgb(154, 150, 150);
+}
+.history-church__wrap_text,
+.history-church__wrap_ears{
+     border-bottom: 1px solid rgb(154, 150, 150); 
+    display: grid;
+    grid-template-rows:60px 60px 60px 60px 60px 60px 60px;
+     height: 100%; 
+    }
+.history-church__wrap_ears{
+    text-align: center;
+   
+}
+.history-church__wrap_text{
+    text-align: start;
+ 
+   }
 
+.history-church__ears,
+.history-church__text{
+    display: grid;
+    margin-top: 0;
+    margin-bottom: 0;
+    height: 100%;
+    border-bottom: 1px solid rgb(154, 150, 150); 
+    align-items: center;
 
+}
 /* =================Слайдер ===============*/
 
 .slider-arrow {
